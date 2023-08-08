@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("enter the number");
+	scanf("%d",&n);
+	if(n>0||n<0)
+	{
+	if(n%2==0)
+	 {
+		printf("the given number is even");
+	 }
+	else
+	 {
+		printf("the given number is odd");
+	 }
+    }
+    //test case for characters
+    else
+    {
+    	printf("characters are not allowed\n");
+    	printf("enter the valid input\n");
+	}
+	return 0;
+}
